@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+
+    background: #3f47a1; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #3f47a1 0%, #113b6d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #3f47a1 0%,#113b6d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #3f47a1 0%,#113b6d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f47a1', endColorstr='#113b6d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.question_wrap {
+  padding: 100px;
+}
+
+.question-heading {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Pragati Narrow', sans-serif;
+  border-top: 6px solid rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 50px;
+  padding-top: 55px;
+}
+
+.question-text {
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.slide_wrap {
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  left: 100%;
+  width: 100%;
+}
+
+.slide.active {
+  left: 0;
+}
+
+/* Slide Indicators */
+.slide_indicator_wrap {
+	width: 100%;
+	bottom: 20px;
+	height: 11px;
+	display: block;
+	position: fixed;
+	text-align: center;
+  padding: 0;
+}
+
+.slide_indicator {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 10px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.slide_indicator.active {
+  background-color: #fff;
+  border: 2px solid #fff;
+  top: -3px;
+}
+
+.slide_indicator:hover {
+	cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+}
