@@ -1,2 +1,7 @@
-# catchup
-random question prompt for catchups
+# catchup cue's
+
+![alt text](./assets/screenshot.png "Catchup Cues")
+
+This has been created as a question prompt for leaders to ask their reports.
+
+They are set up with a bunch different areas of focus. Ranging from Self Improvement & Happiness to Long Term business & Management improvement questioning. The questions have been primarily pulled from [Jason Evanish](https://twitter.com/evanish) post [101 Questions to Ask in One on Ones](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/) however are totally extendible by editing the ```questions.js``` file.
