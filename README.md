@@ -11,12 +11,12 @@ They are set up with a bunch different areas of focus. Ranging from Self Improve
 npm install
 ```
 
-####To build
+#### To build
 ```
 npm run build
 ```
 
-####Run on local machine
+#### Run on local machine
 ```
 npm run start
 ```
