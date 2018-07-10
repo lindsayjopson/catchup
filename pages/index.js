@@ -1,5 +1,5 @@
 import dataSet from '../questions';
-import "../style.css"
+import "../style.css";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
