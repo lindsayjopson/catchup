@@ -53,34 +53,20 @@ body {
 }
 
 /* Slide Indicators */
-.slide_indicator_wrap {
-	width: 100%;
-	bottom: 20px;
-	height: 11px;
-	display: block;
-	position: fixed;
-	text-align: center;
-  padding: 0;
+.btn {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3f47a1;
+  padding: 8px 10px;
+  border-radius: 15px;
+  width: 100px;
+  margin: 0 auto;
 }
-
-.slide_indicator {
-	top: -5px;
-	width: 11px;
-	height: 11px;
-	margin: 0 10px;
-	position: relative;
-	border-radius: 100%;
-	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.3);
-}
-
-.slide_indicator.active {
-  background-color: #fff;
-  border: 2px solid #fff;
-  top: -3px;
-}
-
-.slide_indicator:hover {
-	cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.8);
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
 }
