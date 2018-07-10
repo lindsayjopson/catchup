@@ -18,5 +18,5 @@ npm run build
 
 #### Run on local machine
 ```
-npm run start
+npm start
 ```
