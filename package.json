@@ -2,9 +2,9 @@
   "name": "catchup",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "next build && next export -o docs"
+    "build": "NODE_ENV=dev next build",
+    "start": "NODE_ENV=dev next start",
+    "deploy": "NODE_ENV=production next build && next export -o docs"
   },
   "dependencies": {
     "@zeit/next-css": "^0.1.4",

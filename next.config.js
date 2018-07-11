@@ -1,5 +1,14 @@
 // next.config.js
-const withCSS = require('@zeit/next-css')
+const withCSS = require('@zeit/next-css');
+
+const isProd = process.env.NODE_ENV === 'production';
+
+if (isProd) {
+  console.log("Setup assetPrefix for Production");
+} else {
+  console.log("Setup assetPrefix for dev");
+}
+
 module.exports = withCSS({
   exportPathMap: async function (defaultPathMap) {
     return {
@@ -7,5 +16,5 @@ module.exports = withCSS({
 
     }
   },
-  assetPrefix: 'https://lindsayjopson.github.io/catchup/',
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://lindsayjopson.github.io/catchup/' : ''
 })
