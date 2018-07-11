@@ -8,9 +8,9 @@ This has been created as a question prompt for leaders to ask during regular cat
 
 They are set up with a bunch different areas of focus. Ranging from Self Improvement & Happiness to Long Term business & Management improvement questioning.
 
-Questions contributions:
-[Jason Evanish](https://twitter.com/evanish) post [101 Questions to Ask in One on Ones](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/)
-[Movio](http://www.movio.co)
+##### Questions contributors:
+  * [Jason Evanish](https://twitter.com/evanish) post [101 Questions to Ask in One on Ones](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/)
+  * [Movio](http://www.movio.co)
 
 #### Adding questions
 Adding questions is totally extendible by editing the ```questions.js``` file.
