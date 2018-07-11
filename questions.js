@@ -6,7 +6,9 @@ export default{
       "What are your top priorities right now?",
       "Are there any projects you’d really like to work on if you were given the opportunity?",
       "What parts of your job would you like to deepen your skills in or get additional training in?",
-      "Is any part of your project unclear or confusing?"
+      "Is any part of your project unclear or confusing?",
+      "What have you learned this past week?",
+      "Where did we see growth this week?"
     ]},
     {"LongTerm": [
       "What do you want to be doing in 5 years? 10 years? 3 years?",
@@ -65,7 +67,12 @@ export default{
       "How can I better support you?",
       "What would you like to know about me?",
       "Is there a situation you’d like my help with?",
-      "What is something I could do better? What is a criticism you have for me?"
+      "What is something I could do better? What is a criticism you have for me?",
+      "Is there anything I should know about how you like to work?",
+      "How can I help you to be successful?",
+      "How could I be helping you to be a better manager?",
+      "What decisions can I help you make?",
+      "What question should I be asking that I haven’t asked yet?"
     ]},
     {"Happiness" : [
       "Are you happy working here?",
@@ -74,7 +81,12 @@ export default{
       "What’s one thing we do to help you enjoy your job more?",
       "Is your job what you expected when you accepted it?",
       "What worries you?",
+      "What are you really enjoying in your work at the moment?",
+      "What is frustrating you about your work at the moment?",
+      "Are we getting the most important things right?",
+      "What would help you do your job better?",
       "What’s on your mind?",
+      "What’s one cool thing that happened to you this week – workwise or otherwise?",
       "What’s not fun about working here? What do you enjoy most about working here?",
       "When was the time you enjoyed working here the most?",
       "What do you feel is your greatest accomplishment here?",
@@ -95,7 +107,13 @@ export default{
       "What characteristics make someone a good fit for our team? How would you look for those characteristics in an interview?",
       "What’s the biggest thing you’d like to change about our team?",
       "What do you like most about working on our team?",
-      "Has anyone on the team ever made you feel uncomfortable? What happened?"
+      "Has anyone on the team ever made you feel uncomfortable? What happened?",
+      "How are things going with your team?",
+      "How is morale among your direct reports?",
+      "How effectively are your team working together?",
+      "What are your bottlenecks (for you and/or your team)?",
+      "What are some new things you are doing/attempting with your team?",
+      "What happens in your individual catch-ups with your direct reports?"
     ]}
   ]
 }
