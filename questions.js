@@ -3,6 +3,7 @@ export default{
     {"ShortTerm": [
       "How is [project] going? What could we do to make it better?",
       "Is there anything blocking you from getting your work done?",
+      "What are your top priorities right now?",
       "Are there any projects you’d really like to work on if you were given the opportunity?",
       "What parts of your job would you like to deepen your skills in or get additional training in?",
       "Is any part of your project unclear or confusing?"
@@ -24,6 +25,11 @@ export default{
       "Do you feel challenged at work? Are you learning new things?",
       "What area of the company would you like to learn more about?",
       "What skills would you like to develop right now?",
+      "When do you think you’re at your best?",
+      "What is the most important thing to you in your work?",
+      "What do you enjoy the most about your work?",
+      "How do you like to be rewarded?",
+      "What do you think is the most important thing for me to focus on when it comes to you and your role?",
       "Who in the company would you like to learn from? What do you want to learn?",
       "How do you prefer to receive feedback?",
       "Do you feel you’re getting enough feedback?",
