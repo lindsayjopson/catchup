@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu|Oswald|Pragati+Narrow" rel="stylesheet" />
-          <link rel="stylesheet" href="/_next/static/style.css" />
+        <link rel="stylesheet" href="/_next/static/style.css" rel="stylesheet" />
         </Head>
         <body>
           <Main />
