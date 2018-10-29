@@ -30,30 +30,30 @@ const renderQuestion = (questionHeading, questionText) => (
 );
 
 function navClick() {
-  const slides = document.getElementsByClassName("slide");
+    const slides = document.getElementsByClassName("slide");
 
-  for(var i=0; i < slides.length; i++) {
-    if(slides[i].classList.contains('active')){
-      slides[i].classList.remove('active');
-      if(i+1 >= slides.length){
-        slides[0].classList.add('active');
-        break;
-      }else {
-        slides[i+1].classList.add('active');
-        break;
-      }
+    for(var i=0; i < slides.length; i++) {
+        if(slides[i].classList.contains('active')){
+            slides[i].classList.remove('active');
+            if(i+1 >= slides.length){
+                slides[0].classList.add('active');
+                break;
+            }else {
+                slides[i+1].classList.add('active');
+                break;
+            }
+        }
     }
-  }
 }
 
 const renderNav = () => (
-  <button
-    className="btn"
-    onClick={navClick}
-  >
-  Next
-  </button>
-)
+    <button
+       className="btn"
+       onClick={navClick}
+    >
+        Next
+    </button>
+);
 
 export default () => (
   <div>
@@ -68,6 +68,9 @@ export default () => (
           {getQuestionDetail()}
       </li>
     </ul>
-    {renderNav()}
+        {renderNav()}
+        <a class="logo--github" href="https://github.com/lindsayjopson/catchup" target="_blank">
+        lindsayjopson <img src="./static/github.png" /> 
+        </a>
   </div>
 );

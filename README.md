@@ -1,6 +1,6 @@
 # Catchup Cue's
 
-![alt text](./assets/screenshot.png "Catchup Cues")
+![alt text](./static/screenshot.png "Catchup Cues")
 
 This has been created as a question prompt for leaders to ask during regular catchups (1 on 1's).
 
