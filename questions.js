@@ -39,7 +39,8 @@ export default{
       "What additional training or education would you like?",
       "Are there any roles in the company you’d like to learn more about?",
       "What do you think are the key skills for your role? How would you rate yourself for each of them?",
-      "Is there an aspect of your job you would like more help or coaching?"
+        "Is there an aspect of your job you would like more help or coaching?",
+        "Looking back on the week, is there anything that could have gone better?"
     ]},
     {"BusinessGoals" : [
       "What is the company not doing today that we should do to better compete in the market?",
@@ -57,7 +58,9 @@ export default{
       "Do you feel like you’re on the same page with your team? How often do you think you need meetings to ensure you stay that way?",
       "What do you think are the long term prospects of the company?",
       "How many hours a day do you feel you’re productive? How could we help you be more productive?",
-      "How could we be more creative or innovative as a company?"
+        "How could we be more creative or innovative as a company?",
+        "What process can be fixed or improved?",
+        "What is the most meaningful part of your job?"
     ]},
     {"ManagerImprovement" : [
       "What could I do as a manager to make your work easier?",
@@ -72,7 +75,7 @@ export default{
       "How can I help you to be successful?",
       "How could I be helping you to be a better manager?",
       "What decisions can I help you make?",
-      "What question should I be asking that I haven’t asked yet?"
+      "What question should I be asking that I haven’t asked yet?",
     ]},
     {"Happiness" : [
       "Are you happy working here?",
