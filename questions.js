@@ -11,9 +11,12 @@ export default{
       "Where did we see growth this week?"
     ]},
     {"LongTerm": [
+<<<<<<< HEAD
       "Do you have opportunities at work to learn and grow? What would you like to learn or get better at?",
       "Do you see yourself working here in three years? Why or why not?",
       "Do you believe there are good career opportunities at Stripe (e.g. stretch assignments, increased responsibility, and internal mobility)? If not, what opportunities would excite you?",
+=======
+>>>>>>> cfe99c9805a934908dfbc97856e2c0d2139f4391
       "What do you want to be doing in 5 years? 10 years? 3 years?",
       "What are your long term goals? Have you thought about them?",
       "Do you feel like you’re making progress on your big goals here? Why or why not?",

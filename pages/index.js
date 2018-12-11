@@ -1,5 +1,5 @@
 import dataSet from '../questions';
-import "../style.css"
+import "../style.css";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
@@ -30,37 +30,47 @@ const renderQuestion = (questionHeading, questionText) => (
 );
 
 function navClick() {
-  console.log('test');
+    const slides = document.getElementsByClassName("slide");
+
+    for(var i=0; i < slides.length; i++) {
+        if(slides[i].classList.contains('active')){
+            slides[i].classList.remove('active');
+            if(i+1 >= slides.length){
+                slides[0].classList.add('active');
+                break;
+            }else {
+                slides[i+1].classList.add('active');
+                break;
+            }
+        }
+    }
 }
 
 const renderNav = () => (
-  <ul
-    className='slide_indicator_wrap'
-  >
-    <li
-      className='slide_indicator active'
-      onClick={navClick()}
+    <button
+       className="btn"
+       onClick={navClick}
     >
-    </li>
-    <li className='slide_indicator'>
-    </li>
-    <li className='slide_indicator'>
-    </li>
-  </ul>
-)
+        Next
+    </button>
+);
 
-export default () => {
-  return (
-    <div>
-      <ul className='slide_wrap'>
-        <li className='slide active'>
-            {getQuestionDetail()}
-        </li>
-        <li className='slide'>
-            {getQuestionDetail()}
-        </li>
-      </ul>
-      {renderNav()}
-    </div>
-  );
-}
+export default () => (
+  <div>
+    <ul className='slide_wrap'>
+      <li className='slide active'>
+          {getQuestionDetail()}
+      </li>
+      <li className='slide'>
+          {getQuestionDetail()}
+      </li>
+      <li className='slide'>
+          {getQuestionDetail()}
+      </li>
+    </ul>
+        {renderNav()}
+        <a class="logo--github" href="https://github.com/lindsayjopson/catchup" target="_blank">
+        lindsayjopson <img src="./static/github.png" /> 
+        </a>
+  </div>
+);
