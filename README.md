@@ -11,6 +11,7 @@ They are set up with a bunch different areas of focus. Ranging from Self Improve
 ##### Questions contributors:
   * [Jason Evanish](https://twitter.com/evanish) post [101 Questions to Ask in One on Ones](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/)
   * [Movio](http://www.movio.co)
+  * [Stripe engineering blog](https://stripe.com/atlas/guides/scaling-eng)
 
 #### Adding questions
 Adding questions is totally extendible by editing the ```questions.js``` file.
